@@ -1,9 +1,10 @@
 #!npx ts-node
 import { exec } from 'child_process';
-import { camelCase, kebabCase, startCase } from 'lodash';
+import { kebabCase, startCase } from 'lodash';
 import path from 'path';
 import fileExists from './utils/file-exists';
 import { error__, info__ } from './utils/message';
+import pascalCase from './utils/pascal-case';
 import writeContentToFile from './utils/write-content-to-file';
 
 const SRC_DIR = path.resolve(__dirname, '../src');
@@ -161,12 +162,6 @@ function getPageData(args: PageArgs): PageData {
     implPath,
     implFilePath,
   };
-}
-
-function pascalCase(value: string) {
-  let result = camelCase(value);
-  result = result[0].toUpperCase() + result.substring(1);
-  return result;
 }
 
 function isPageParam(value: string) {
