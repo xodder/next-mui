@@ -111,7 +111,7 @@ function parsePageArgs(): PageArgs {
 
     if (!name) error__('the provided path could not be parsed');
 
-    args.name = name;
+    args.name = name!;
   }
 
   return args;

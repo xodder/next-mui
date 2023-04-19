@@ -4,9 +4,9 @@ const config = {
   },
   accessTokenKey: process.env.NEXT_PUBLIC_AUTH_TOKEN_KEY || '__token__',
   seo: {
-    name: 'Surge',
-    title: 'Surge',
-    titleTemplate: '%s | Surge',
+    name: 'NextJs',
+    title: 'NextJs',
+    titleTemplate: '%s | NextJs',
     description: '',
     url: '',
     image: '',

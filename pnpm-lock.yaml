@@ -6,7 +6,6 @@ specifiers:
   '@emotion/server': ^11.10.0
   '@emotion/styled': ^11.10.6
   '@mui/material': ^5.11.16
-  '@next/font': ^13.3.0
   '@tanstack/react-query': ^4.28.0
   '@types/lodash': ^4.14.192
   '@types/node': 18.15.11
@@ -39,12 +38,11 @@ dependencies:
   '@emotion/server': 11.10.0
   '@emotion/styled': 11.10.6_wk7udrqmfetfur7bcmggr6k6fm
   '@mui/material': 5.11.16_zy4fdalh3zntkbuswwsbylvxqe
-  '@next/font': 13.3.0
   '@tanstack/react-query': 4.28.0_biqbaboplfbrettd7655fr4n2y
-  '@xod/mui-layout': github.com/xodder/mui-layout/110b41e66d270d4fac0438afb5ec5d8f9a677eea_46gwejg6dffllellg4ffkuclsi
-  '@xod/mui-loadable-content': github.com/xodder/mui-loadable-content/c4cad038069addd2ffd6b4bcf4e460ebfc64d9d6_46gwejg6dffllellg4ffkuclsi
-  '@xod/mui-popupish': github.com/xodder/mui-popupish/3f5ce32ca09885bd0dd25ec3247dea1a5451cfbe_46gwejg6dffllellg4ffkuclsi
-  '@xod/tasks': github.com/xodder/tasks/7a51f06afb27f0f04a9fb6b55584c3005f25e062_react@18.2.0
+  '@xod/mui-layout': github.com/xodder/mui-layout/41592bb4efa3dca90c8c5cf48d9d0481aa51c751_46gwejg6dffllellg4ffkuclsi
+  '@xod/mui-loadable-content': github.com/xodder/mui-loadable-content/e80ec092be2f6031ae4be4bc1499bba53d0c89db_46gwejg6dffllellg4ffkuclsi
+  '@xod/mui-popupish': github.com/xodder/mui-popupish/9fe0f75a2dcd122abde65d23334987e1079fd7c8_46gwejg6dffllellg4ffkuclsi
+  '@xod/tasks': github.com/xodder/tasks/5d09c61736960365386d1f47418f5b70f30993a5_react@18.2.0
   axios: 1.3.5
   lodash: 4.17.21
   next: 13.3.0_biqbaboplfbrettd7655fr4n2y
@@ -495,10 +493,6 @@ packages:
     dependencies:
       glob: 7.1.7
     dev: true
-
-  /@next/font/13.3.0:
-    resolution: {integrity: sha512-xUv7VRUA2Zr6n/KJDILyv7/zGy9xKUsyQURaQqYr7lVxn0REScazwyZQzhSm+DnJoUyo+9DcFs2J3WsZXHUvQw==}
-    dev: false
 
   /@next/swc-darwin-arm64/13.3.0:
     resolution: {integrity: sha512-DmIQCNq6JtccLPPBzf0dgh2vzMWt5wjxbP71pCi5EWpWYE3MsP6FcRXi4MlAmFNDQOfcFXR2r7kBeG1LpZUh1w==}
@@ -3160,9 +3154,9 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/xodder/mui-layout/110b41e66d270d4fac0438afb5ec5d8f9a677eea_46gwejg6dffllellg4ffkuclsi:
-    resolution: {tarball: https://codeload.github.com/xodder/mui-layout/tar.gz/110b41e66d270d4fac0438afb5ec5d8f9a677eea}
-    id: github.com/xodder/mui-layout/110b41e66d270d4fac0438afb5ec5d8f9a677eea
+  github.com/xodder/mui-layout/41592bb4efa3dca90c8c5cf48d9d0481aa51c751_46gwejg6dffllellg4ffkuclsi:
+    resolution: {tarball: https://codeload.github.com/xodder/mui-layout/tar.gz/41592bb4efa3dca90c8c5cf48d9d0481aa51c751}
+    id: github.com/xodder/mui-layout/41592bb4efa3dca90c8c5cf48d9d0481aa51c751
     name: '@xod/mui-layout'
     version: 1.0.0
     peerDependencies:
@@ -3173,9 +3167,9 @@ packages:
       react: 18.2.0
     dev: false
 
-  github.com/xodder/mui-loadable-content/c4cad038069addd2ffd6b4bcf4e460ebfc64d9d6_46gwejg6dffllellg4ffkuclsi:
-    resolution: {tarball: https://codeload.github.com/xodder/mui-loadable-content/tar.gz/c4cad038069addd2ffd6b4bcf4e460ebfc64d9d6}
-    id: github.com/xodder/mui-loadable-content/c4cad038069addd2ffd6b4bcf4e460ebfc64d9d6
+  github.com/xodder/mui-loadable-content/e80ec092be2f6031ae4be4bc1499bba53d0c89db_46gwejg6dffllellg4ffkuclsi:
+    resolution: {tarball: https://codeload.github.com/xodder/mui-loadable-content/tar.gz/e80ec092be2f6031ae4be4bc1499bba53d0c89db}
+    id: github.com/xodder/mui-loadable-content/e80ec092be2f6031ae4be4bc1499bba53d0c89db
     name: '@xod/mui-loadable-content'
     version: 1.0.0
     peerDependencies:
@@ -3186,9 +3180,9 @@ packages:
       react: 18.2.0
     dev: false
 
-  github.com/xodder/mui-popupish/3f5ce32ca09885bd0dd25ec3247dea1a5451cfbe_46gwejg6dffllellg4ffkuclsi:
-    resolution: {tarball: https://codeload.github.com/xodder/mui-popupish/tar.gz/3f5ce32ca09885bd0dd25ec3247dea1a5451cfbe}
-    id: github.com/xodder/mui-popupish/3f5ce32ca09885bd0dd25ec3247dea1a5451cfbe
+  github.com/xodder/mui-popupish/9fe0f75a2dcd122abde65d23334987e1079fd7c8_46gwejg6dffllellg4ffkuclsi:
+    resolution: {tarball: https://codeload.github.com/xodder/mui-popupish/tar.gz/9fe0f75a2dcd122abde65d23334987e1079fd7c8}
+    id: github.com/xodder/mui-popupish/9fe0f75a2dcd122abde65d23334987e1079fd7c8
     name: '@xod/mui-popupish'
     version: 1.0.0
     peerDependencies:
@@ -3199,9 +3193,9 @@ packages:
       react: 18.2.0
     dev: false
 
-  github.com/xodder/tasks/7a51f06afb27f0f04a9fb6b55584c3005f25e062_react@18.2.0:
-    resolution: {tarball: https://codeload.github.com/xodder/tasks/tar.gz/7a51f06afb27f0f04a9fb6b55584c3005f25e062}
-    id: github.com/xodder/tasks/7a51f06afb27f0f04a9fb6b55584c3005f25e062
+  github.com/xodder/tasks/5d09c61736960365386d1f47418f5b70f30993a5_react@18.2.0:
+    resolution: {tarball: https://codeload.github.com/xodder/tasks/tar.gz/5d09c61736960365386d1f47418f5b70f30993a5}
+    id: github.com/xodder/tasks/5d09c61736960365386d1f47418f5b70f30993a5
     name: '@xod/tasks'
     version: 1.0.0
     peerDependencies:

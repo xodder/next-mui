@@ -1,5 +1,5 @@
 import { createTheme } from '@mui/material';
-import { Roboto } from '@next/font/google';
+import { Roboto } from 'next/font/google';
 
 const { breakpoints } = createTheme();
 
